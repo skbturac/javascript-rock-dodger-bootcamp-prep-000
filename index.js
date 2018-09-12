@@ -49,7 +49,6 @@ function createRock(x) {
   //rock.style.top = `${top}px`;	  
   //rock.style.top = '0px';
   GAME.appendChild(rock);
-}
    
   function moveRock() {
     // implement me!
@@ -89,7 +88,8 @@ function createRock(x) {
 
   // Finally, return the rock element you've created
   return rock
-}  
+} 
+}
 
 /**
  * End the game by clearing `gameInterval`,
